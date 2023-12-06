@@ -9,6 +9,16 @@
     android:background="#FFFFFF"
     tools:context=".MainActivity">
 
+    <!-- SJSU Logo ImageView -->
+    <ImageView
+        android:id="@+id/sjsuLogoImageView"
+        android:layout_width="140dp"
+        android:layout_height="144dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="SJSU Logo"
+        android:src="@drawable/logo" />
+
     <!-- App Title -->
     <TextView
         android:id="@+id/titleTextView"
